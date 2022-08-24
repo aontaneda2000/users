@@ -1,0 +1,155 @@
+.App {
+  padding: 2rem;
+}
+
+/* header */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.header__btn {
+  border: none;
+  background: #555a88;
+  color: #fff;
+  padding: 12px 10px 12px 50px;
+  cursor: pointer;
+}
+.header__btn:hover {
+  background-color: #666b9a;
+}
+.header__span {
+  margin-right: 1rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card__user {
+  width: max-content;
+  border: 2px solid #ccca;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 1rem;
+}
+
+.card__footer {
+  margin-left: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.card__item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 7px;
+  color: #aaa9;
+  padding-left: 20px;
+}
+
+.card__span {
+  color: black;
+  transform: translate(-10px);
+}
+
+.card__btn {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card__btn:nth-child(1) {
+  background-color: rgb(82, 82, 182);
+  color: white;
+}
+.card__btn:nth-child(1):hover {
+  background-color: rgb(41, 41, 143);
+  color: white;
+}
+.card__btn:nth-child(2) {
+  background-color: #d14c4c;
+  color: white;
+}
+.card__btn:nth-child(2):hover {
+  background-color: #c73333;
+  color: white;
+}
+/* Formulario */
+.form-none {
+  display: none;
+}
+.form__title2 {
+  margin-bottom: 1rem;
+}
+.form-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+}
+
+.form {
+  margin-bottom: 1rem;
+  border: 1px solid #ccca;
+  padding: 20px;
+  width: max-content;
+  background-color: #fff;
+  position: relative;
+}
+
+.form__equis {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 25px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 50%;
+}
+
+.form__equis:hover {
+  background-color: #0005;
+  color: white;
+}
+
+.form__btn {
+  display: block;
+  width: max-content;
+  padding: 8px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+}
+.form__btn:hover {
+  background-color: rgb(39, 39, 159);
+}
+
+.form__item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 7px;
+}
